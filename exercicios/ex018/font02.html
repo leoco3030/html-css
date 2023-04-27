@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Ancient Medium';
+            src: url(fonts/Ancient\ Medium.ttf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            background-color: rgb(255, 229, 195);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Ancient Medium', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, eveniet tempore itaque placeat deserunt odit maxime corrupti quas ducimus quaerat impedit magni suscipit sequi laborum ipsum sapiente dignissimos dicta enim.</p>
+</body>
+</html>
