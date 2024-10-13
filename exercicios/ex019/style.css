@@ -1,0 +1,37 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#main {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: teal;
+}
+
+.basico {
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: yellow;
+    font-weight: bold;
+}
+
+.avancado {
+    color: red;
+    font-weight: bold;
+}
+
+.destaque {
+    background-color: tan;
+}
