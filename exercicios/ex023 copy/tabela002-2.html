@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            background-color: lightseagreen;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 465px;
+            background-color: azure;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 8px;
+            background-color: navy;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 6px;
+        }
+
+        td.country:hover {
+            background-color: lime;
+            cursor: pointer;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th style="width: 70px" scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="country">Brasil</td>
+                <td class="num">200.000.000</td>
+            </tr>
+            <tr>
+                <td class="country">Espanha</td>
+                <td class="num">195.000.000</td>
+            </tr>
+            <tr>
+                <td class="country">Canadá</td>
+                <td class="num">160.000.000</td>
+            </tr>
+            <tr>
+                <td class="country">Alemanha</td>
+                <td class="num">130.000.000</td>
+            </tr>
+            <tr>
+                <td class="country">Japão</td>
+                <td class="num">125.000.000</td>
+            </tr>
+            <tr>
+                <td class="country">China</td>
+                <td class="num">110.000.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total</th>
+            <td class="num"><strong>700.000.000</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>
