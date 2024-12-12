@@ -1,0 +1,9 @@
+body, html {
+    background-color: indigo;
+    color: white;
+}
+
+a {
+    color: lightpink;
+    text-decoration: none;
+}
